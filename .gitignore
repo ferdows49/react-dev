@@ -2,6 +2,10 @@
 
 # dependencies
 /node_modules
+# /src/components/Products.js
+# /src/components/ProductDetail.js
+# /src/components/Product.js
+# /src/components/Product.css
 /.pnp
 .pnp.js
 

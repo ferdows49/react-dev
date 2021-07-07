@@ -1,10 +1,13 @@
-import React from 'react';
-import MyComponent from './components/MyComponent';
+import React from "react";
+import './App.css'
+//import MyComponent from "./components/1st/MyComponent";
+import Products from './components/Products';
 
 function App() {
   return (
-    <div>
-      <MyComponent />
+    <div className="main">
+      {/* <MyComponent /> */}
+      <Products />
     </div>
   );
 }
