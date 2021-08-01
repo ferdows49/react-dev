@@ -19,7 +19,7 @@ const Products = () => {
           {Dummy_Products.map((product) => {
             return (
               <NavLink
-                to={`/product-details/${product.id}`}
+                to={`/products/${product.id}`}
                 style={{ textDecoration: "none" }}
               >
                 <div className="product-card" key={product.id}>
